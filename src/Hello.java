@@ -24,8 +24,8 @@ public class Hello {
 					   "0- sair");
 			
 			switch (opc) {
-				case "1": nomeArquivo=JOptionPane.showInputDialog(null, "Digite o nome do arquivo");
-						  new HelloPDF(informacao).gerarPDF(nomeArquivo);break;
+				//case "1": nomeArquivo=JOptionPane.showInputDialog(null, "Digite o nome do arquivo");
+				//		  new HelloPDF(informacao).gerarPDF(nomeArquivo);break;
 				case "2": new HelloConsole(informacao).getInformacao();break;
 				case "3": new HelloJOptionPane(informacao).getInformacao();break;
 				case "0": JOptionPane.showMessageDialog(null, "Tchau :)");break;
